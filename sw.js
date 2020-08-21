@@ -9,7 +9,7 @@ self.addEventListener('push', function(e) {
       },
       actions: [
         {
-            action: 'explore', title: 'Explore this new world',
+            action: 'visit', title: 'Visit our website',
             icon: 'images/checkmark.png'
         },
         {   action: 'close', title: 'Close',
