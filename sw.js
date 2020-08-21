@@ -9,7 +9,7 @@ self.addEventListener('push', function(e) {
       },
       actions: [
         {
-            action: 'visit', title: 'Visit our website',
+            action: 'https://channelier.com/', title: 'Visit our website',
             icon: 'images/checkmark.png'
         },
         {   action: 'close', title: 'Close',
